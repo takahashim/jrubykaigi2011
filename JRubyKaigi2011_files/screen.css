@@ -1,0 +1,130 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 22:09:17 7 23, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:08:31 6 30, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+body {
+  margin: 0;
+  padding: 0;
+  background: url(./images/brick.jpg) repeat-y center 43px black;
+  font-family: 'Myriad Pro'; }
+
+h1 {
+  margin: 0;
+  background: url("") no-repeat 50% 50%;
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 1080px;
+  height: 240px; }
+
+h2, h3, h4 {
+  margin: 0; }
+
+h2 {
+  border-bottom: 6px solid #fdc;
+  text-align: center;
+  font-size: 140%;
+  margin-bottom: 10px; }
+
+#wrapper {
+  width: 680px;
+  margin: auto;
+  padding: 0 200px;
+  background: url(./images/wall.jpg) no-repeat center top transparent; }
+
+#main > * {
+  border: 6px solid #000;
+  background: #ffe;
+  color: black;
+  margin: 5px;
+  padding: 10px;
+  min-height: 300px;
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  vertigal-align: top; }
+
+#main:after {
+  content: "hoge";
+  clear: both;
+  height: 0;
+  display: block;
+  visibility: hidden; }
+
+#parts > * {
+  border: 6px solid #000;
+  background: #ffe;
+  color: black;
+  margin: 5px;
+  padding: 10px;
+  width: 298px;
+  display: inline-block;
+  min-height: 300px;
+  vertical-align: top; }
+
+#bottom {
+  margin: 3em 5px;
+  color: #f7eeee; }
+  #bottom h2 {
+    border-bottom: 1px dotted #f7eeee;
+    text-align: left; }
+  #bottom a {
+    color: #66ccee; }
+
+#slideshow {
+  background: white;
+  border: 3px double gray;
+  border-width: 3px 0; }
+
+#sponsors {
+  width: 100%; }
+  #sponsors .logoclouds a {
+    display: inline-block;
+    vertical-align: middle; }
+
+.message {
+  background: url(/web/20110723220917/http://jrubykaigi.org/2011/images/jruby_duke.png) left 50% no-repeat;
+  font-style: italic;
+  height: 60px;
+  padding-left: 64px;
+  line-height: 50px; }
+
+#information {
+  border: 6px solid #000;
+  background: #ffe;
+  color: black;
+  margin: 5px;
+  padding: 10px; }
+  #information h2 {
+    text-align: left; }
+
+#registration {
+  margin: 2em 0;
+  text-align: center; }
+  #registration input {
+    margin: 4px; }
+  #registration input[type='text'] {
+    width: 400px; }
+
+#movies p {
+  text-align: center;
+  margin: 3em; }
+
+#contribute > div {
+  font-size: 90%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1em; }
+  #contribute > div h2 {
+    border-bottom: 1px dotted; }
+  #contribute > div ul {
+    list-style: none;
+    padding-left: 1em; }
